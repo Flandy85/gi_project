@@ -1,0 +1,1159 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+/* line 13, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 27, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 35, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 49, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+/* line 62, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 72, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 81, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 92, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 105, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 115, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 125, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 135, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 144, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 154, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 165, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 173, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 182, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 191, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 199, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 203, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 214, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 223, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 232, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 240, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 252, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 268, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 278, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 289, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 300, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 312, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 323, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 336, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 350, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+/* line 397, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 407, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 420, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 429, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 440, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 448, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 459, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/***********************
+  GENERAL
+************************/
+/* line 4, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+}
+
+/* line 9, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 13, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 19, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/* line 22, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.add-banner {
+  margin: 0 0 30px 0;
+  padding: 0 auto;
+  width: 100%;
+}
+
+/* line 29, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.info-box, .info-box > p {
+  display: inline-block;
+}
+
+/* line 33, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.blog-background {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/***********************
+      HEADING
+************************/
+/* line 44, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+header {
+  float: left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
+}
+
+/* line 52, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+/* line 57, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+h1 {
+  font-family: 'Coiny', cursive, sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+/* line 65, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/* line 70, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+#wrapper {
+  max-width: 940px;
+  height: auto;
+  margin: 110px auto;
+  padding: 0 5%;
+}
+
+/***********************
+       Navigation
+ ************************/
+/* line 83, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+nav {
+  text-align: center;
+  padding: 20px 0;
+  margin: 20px 0 0;
+}
+
+/* line 89, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+/* line 94, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 98, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+nav a {
+  padding: 15px 10px;
+}
+
+/***********************  
+        FOOTER
+ ************************/
+/* line 106, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  color: #898989;
+}
+
+/* line 112, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+#menu-footer-container, .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+/* line 119, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/***********************
+      PAGE: ABOUT
+************************/
+/* line 129, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.profile-picture {
+  max-width: 40%;
+  max-height: 500px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 100px;
+}
+
+/* line 136, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.left-side {
+  text-align: center;
+}
+
+/**************************
+      PAGE CONTACT
+**************************/
+/* line 143, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.wpcf7-form {
+  text-align: center;
+}
+
+/*************************
+      PAGE: BLOG
+*************************/
+/* line 149, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.blog-title {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+/* line 153, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.blog-content {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  color: #7a7a7a;
+}
+
+/*************************
+      SINGLE PAGE
+*************************/
+/* line 163, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.single-container {
+  text-align: center;
+  margin: 8em auto;
+}
+
+/* line 167, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.single-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+/**************************
+  FRONT PAGE
+**************************/
+/* line 175, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.hidden {
+  display: none;
+}
+
+/*************************
+    404 PAGE
+*************************/
+/* line 181, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.404-container {
+  text-align: center;
+}
+
+/* line 184, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_base.scss */
+.404 {
+  text-align: center;
+}
+
+/***********************
+ Page Portfolio
+************************/
+/* line 4, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_pageportfolio.scss */
+.gallery li.add-banner {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* line 8, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_pageportfolio.scss */
+.gallery {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+/* line 20, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_pageportfolio.scss */
+.gallery li {
+  flex-wrap: wrap;
+  width: 28%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+/* line 28, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_pageportfolio.scss */
+.gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #898989;
+}
+
+/* line 34, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_pageportfolio.scss */
+.widgettitle {
+  color: #bdc3c7;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.50em;
+  text-align: center;
+  font-weight: bold;
+}
+
+/***********************
+      COLORS
+************************/
+/* site body */
+/* line 6, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+body {
+  background-color: #fff;
+  color: #7a7a7a;
+}
+
+/*  header */
+/* line 13, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+header {
+  background-color: #000000;
+  border-color: #BE581E;
+}
+
+/* logo text */
+/* line 18, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+h1, h2 {
+  color: #fff;
+}
+
+/* line 22, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+a {
+  color: #de5305;
+}
+
+/* nav background on mobile */
+/* line 27, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+nav {
+  background: #708090;
+}
+
+/* nav link */
+/* line 32, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+/* line 37, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+nav a.selected, nav a:hover {
+  color: #de5305;
+}
+
+/* Social links meny text */
+/* line 41, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_colors.scss */
+span {
+  padding-right: 10px;
+}
+
+/***********************
+    PAGE: CONTACT
+************************/
+/* line 5, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_contact.scss */
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* line 12, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_contact.scss */
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+/* line 20, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_contact.scss */
+.contact-box, ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 24, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_contact.scss */
+.contact-form li.phone a {
+  font-size: 0.9em;
+}
+
+/* line 27, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_contact.scss */
+.phone > a {
+  background-image: url("../src/img/phone.png");
+}
+
+/* line 30, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_contact.scss */
+.mail > a {
+  background-image: url("../src/img/mail.png");
+}
+
+/* line 33, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_contact.scss */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+  background-color: #fff;
+  color: #000;
+  width: 50%;
+}
+
+@media screen and (min-width: 320px) {
+  /***********************
+    PAGE: FRONT
+***********************/
+  /* line 4, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .blog-container {
+    margin-top: 12em;
+  }
+  /* line 7, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .blog-background {
+    margin: 85px auto;
+  }
+  /***********************
+      PAGE: PORTFOLIO
+***********************/
+  /* line 13, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  #wrapper {
+    margin: 150px auto;
+  }
+  /***********************
+    PAGE: ABOUT
+************************/
+  /* line 19, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .container {
+    margin-top: 150px;
+    margin-bottom: 0;
+  }
+  /* line 23, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .left-side {
+    text-align: center;
+  }
+  /************************
+      PAGE: CONTACT
+************************/
+  /* line 31, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .contact-box {
+    margin-top: 10em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+  }
+  /* line 38, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .contact-form {
+    width: 50%;
+    text-align: center;
+  }
+  /* line 43, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .wpcf7-form {
+    text-align: center;
+    width: 20em;
+  }
+  /* line 47, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .contact-info {
+    margin: 0 auto;
+  }
+  /************************
+    PAGE: BLOG
+************************/
+  /* line 53, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .blog-title {
+    color: #7a7a7a;
+  }
+  /* line 56, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .blog-content {
+    color: #7a7a7a;
+  }
+  /*************************
+      PAGE SINGLE
+*************************/
+  /* line 62, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_smartphones.scss */
+  .single-container {
+    margin-top: 9em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  /***********************
+    PAGE: FRONT
+***********************/
+  /* line 4, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .blog-background {
+    margin: 160px auto;
+  }
+  /***********************
+      PAGE: PORTFOLIO
+***********************/
+  /* line 10, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  #wrapper {
+    margin-top: 140px;
+  }
+  /***********************
+    PAGE: ABOUT
+************************/
+  /* line 16, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .container {
+    margin-top: 150px;
+  }
+  /* line 19, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .left-side {
+    text-align: center;
+  }
+  /************************
+      PAGE: CONTACT
+************************/
+  /* line 27, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .contact-box {
+    margin: 10em auto;
+  }
+  /* line 30, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .contact-form {
+    width: 50%;
+    text-align: center;
+  }
+  /* line 35, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .wpcf7-form {
+    text-align: center;
+  }
+  /* line 38, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .contact-info {
+    margin: 0 auto;
+  }
+  /************************
+    PAGE: BLOG
+************************/
+  /* line 44, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .blog-title {
+    color: #7a7a7a;
+  }
+  /* line 47, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .blog-content {
+    color: #7a7a7a;
+  }
+  /*************************
+    PAGE SINGLE
+*************************/
+  /* line 53, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_mobile.scss */
+  .single-container {
+    margin: 9em auto;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  /***********************
+          HEADER
+************************/
+  /* line 4, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  nav {
+    background: none;
+    float: right;
+    text-align: right;
+    width: 45%;
+  }
+  /* line 11, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  /* line 18, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  h1 {
+    font-size: 2.5em;
+  }
+  /* line 21, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  h2 {
+    font-size: 0.895em;
+    margin-bottom: 20px;
+  }
+  /* line 26, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  header {
+    border-bottom: 5px solid #de5305;
+    margin-bottom: 60px;
+  }
+  /* line 30, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .gallery {
+    margin-top: 130px;
+  }
+  /* line 33, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10em auto;
+  }
+  /* line 40, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .blog-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50%;
+    margin-top: 4em;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  /* line 51, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .blog-background {
+    margin-top: 120px;
+  }
+  /* line 54, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .blog-title, .blog-content {
+    text-align: center;
+    color: #7a7a7a;
+  }
+  /* line 59, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .blog-title {
+    font-family: 'Coiny', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  /* line 66, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .left-side {
+    width: 49%;
+    text-align: center;
+  }
+  /* line 70, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .right-side {
+    width: 50%;
+    line-height: 1.5;
+  }
+  /*****************************
+        PAGE: CONTACT
+  *****************************/
+  /* line 77, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .contact-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin-top: 8em;
+    margin-right: auto;
+    margin-bottom: 4em;
+    margin-left: auto;
+    padding-bottom: 0;
+  }
+  /* line 90, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .contact-info {
+    width: 48%;
+  }
+  /* line 93, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .contact-form {
+    width: 50%;
+  }
+  /* line 97, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .wpcf7-form {
+    text-align: center;
+  }
+  /*************************
+        PAGE SINGLE
+**************************/
+  /* line 103, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tablet.scss */
+  .single-container {
+    text-align: center;
+    margin: 9em auto;
+  }
+}
+
+@media screen and (min-width: 661px) and (max-width: 1024px) {
+  /***************************
+		FRONT: PAGE
+****************************/
+  /* line 4, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tabletportrait.scss */
+  .blog-container {
+    margin-top: 10em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+  }
+  /**************************
+		PAGE: ABOUT
+**************************/
+  /* line 13, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tabletportrait.scss */
+  .container {
+    margin-top: 12em;
+    margin-right: 0 auto;
+    margin-bottom: 6em;
+    margin-left: 0 auto;
+  }
+  /**************************
+		PAGE: CONTACT
+**************************/
+  /* line 22, C:/xampp/htdocs/fed16/wordpress/wp-content/themes/fed16/src/scss/_tabletportrait.scss */
+  .contact-box {
+    margin-top: 10em;
+    margin-right: 0 auto;
+    margin-bottom: 2em;
+    margin-left: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=../../css/style.map */

@@ -1,0 +1,20 @@
+@import "normalize";
+@import "base";
+@import "pageportfolio";
+@import "colors";
+@import "contact";
+ 
+ @media screen and (min-width: 320px) {
+	@import "smartphones";
+}
+
+@media screen and (min-width: 480px) {
+	@import "mobile";
+}
+
+@media screen and (min-width: 660px) {
+	@import "tablet";
+}
+@media screen and (min-width: 661px) and (max-width: 1024px) {
+	@import "tabletportrait";
+}

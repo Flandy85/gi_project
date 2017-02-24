@@ -1,0 +1,41 @@
+/***********************
+ Page Portfolio
+************************/
+.gallery li.add-banner {
+  width: 100%;
+  background-color: #fff;
+}
+.gallery {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap; 
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.gallery li {
+  flex-wrap: wrap;
+  width: 28%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+.gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #898989;
+}
+.widgettitle {
+  color: #bdc3c7;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.50em;
+  text-align: center;
+  font-weight: bold;
+}
+

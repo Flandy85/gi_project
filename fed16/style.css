@@ -1,0 +1,16 @@
+/*
+* Theme Name: FED16
+* Text Domain: fed16
+*/
+body.home .wrapper {
+	background-color: yellow;
+
+}
+
+body.single .wrapper {
+
+	background-color: blue;
+}
+.current-menu-item {
+	font-weight: bold;
+}
